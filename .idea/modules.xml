@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SQUADKI.iml" filepath="$PROJECT_DIR$/SQUADKI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/squadki.iml" filepath="$PROJECT_DIR$/squadki.iml" />
     </modules>
   </component>
 </project>
