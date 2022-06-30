@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fbf7a86-324e-4552-a4d0-667b4797693d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQUADKI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SQUADKI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/squadki/squadki/SquadkiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/squadki/squadki/SquadkiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/squadki/squadki/SquadkiApplication.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +58,18 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "preferences.editor",
+    "spring.configuration.checksum": "4c8f68b932432bed371174ecac65b515"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SquadkiApplication (1)">
+    <configuration name="SquadkiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="squadki" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="squadki.pl.squadki.SquadkiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SquadkiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="squadki" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pl.squadki.squadki.SquadkiApplication" />
@@ -68,7 +86,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656536725145</updated>
-      <workItem from="1656536729935" duration="4677000" />
+      <workItem from="1656536729935" duration="5594000" />
+      <workItem from="1656581875025" duration="1371000" />
+      <workItem from="1656584001900" duration="3047000" />
     </task>
     <servers />
   </component>
@@ -85,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

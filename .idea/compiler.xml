@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SQUADKI" target="18" />
       <module name="squadki" target="18" />
     </bytecodeTargetLevel>
   </component>
