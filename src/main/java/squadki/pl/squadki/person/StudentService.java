@@ -1,14 +1,21 @@
 package squadki.pl.squadki.person;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class StudentService {
+
+    private final StudentRepository studentRepository;
+
+    @Autowired
+    public StudentService(StudentRepository studentRepository) {
+        this.studentRepository = studentRepository;
+    }
+
     public List<Person> getStudents() {
-        return List.of(
-                new Person(1L, "Kapiziak", "997", "kapIziak@kozak.nigeria")
-        );
+        return studentRepository.findAll();
     }
 }
