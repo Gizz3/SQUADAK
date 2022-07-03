@@ -11,15 +11,15 @@ import java.util.List;
 @RequestMapping(path = "api/v1/person")
 public class PersonController {
 
-    private final StudentService studentService;
+    private final PersonService personService;
 
     @Autowired
-    public PersonController(StudentService studentService) {
-        this.studentService = studentService;
+    public PersonController(PersonService personService) {
+        this.personService = personService;
     }
 
     @GetMapping
-    public List<Person> getStudents() {
-        return studentService.getStudents();
+    public List<Person> getPersons() {
+        return personService.getPersons();
     }
 }
